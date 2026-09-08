@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TextClean</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>TextClean</h1>
+
+    <label for="text">Your text</label>
+    <textarea
+      id="text"
+      rows="12"
+      placeholder="Paste or type your text here..."
+    ></textarea>
+
+    <div class="buttons">
+      <button id="spaces" type="button">Clean up spaces</button>
+      <button id="empty" type="button">Remove empty lines</button>
+      <button id="duplicates" type="button">Remove duplicate lines</button>
+      <button id="copy" type="button">Copy text</button>
+    </div>
+
+    <p id="message" role="status"></p>
+  </main>
+</body>
+</html>

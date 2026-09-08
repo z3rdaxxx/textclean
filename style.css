@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #eef2f6;
+  color: #172033;
+}
+
+main {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #64748b;
+  border-radius: 6px;
+  font: inherit;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+button {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #174ac0;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #10378e;
+}
+
+button:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #172033;
+  outline-offset: 3px;
+}
+
+#message {
+  min-height: 1.6em;
+  font-weight: bold;
+}
+
+#copy {
+    background: #15803d;
+    color: white;
+    margin-left: auto;
+}
+
+#copy:hover {
+    background: #166534;
+}
